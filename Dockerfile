@@ -87,8 +87,7 @@ RUN \
 # Show installization info
 
 RUN \
-    nginx -V \
-    && lord version
+    nginx -V
 
 
 # Set the default command to execute
